@@ -1,0 +1,38 @@
+{
+  "name": "url_shortener_not_just_your_regular_one",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc -b",
+  "start": "node ./dist/server.js",
+  "dev": "tsc -b && node ./dist/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MIRACULOUS65/URL_Shortener_Not_Just_Your_Regular_One.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/MIRACULOUS65/URL_Shortener_Not_Just_Your_Regular_One/issues"
+  },
+  "homepage": "https://github.com/MIRACULOUS65/URL_Shortener_Not_Just_Your_Regular_One#readme",
+  "dependencies": {
+    "@prisma/client": "^6.19.3",
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^18.0.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^26.6.2",
+    "prisma": "^6.19.3",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2"
+  }
+}
